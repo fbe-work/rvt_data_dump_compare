@@ -19,7 +19,9 @@ To read out the door data is as easy as running the pyRevit script:
 This reads out a csv table to the specified location. 
 The data that is being captured: <br>
 `<rvt_id> ; <GUID> ; <location> ; <door instance data> ; <door type data>`
-One line per door.
+One line per door:
+
+![data_dump](media/data_dump.png)
 
 #### changes and read out data:
 To showcase the change tracking later, we apply some changes to the doors 
